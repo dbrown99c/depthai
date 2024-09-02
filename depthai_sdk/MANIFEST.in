@@ -14,5 +14,6 @@ include src/depthai_sdk/readers/*.py
 recursive-include src/depthai_sdk/recorders *.py
 include src/depthai_sdk/tracking/*.py
 recursive-include src/depthai_sdk/visualize/ *.py
+recursive-include src/depthai_sdk/visualize/visualizers/ *.py
 include requirements.txt
 include src/depthai_sdk/logger.py
