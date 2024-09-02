@@ -18,7 +18,7 @@ setup(
     author='Luxonis',
     author_email='support@luxonis.com',
     license='MIT',
-    packages=find_packages(where='src'),
+    packages=['depthai_sdk', 'depthai_sdk_console_scripts', find_packages(where='src')],
     package_dir={'': 'src'},  # https://stackoverflow.com/a/67238346/5494277
     install_requires=install_requires,
     include_package_data=True,
