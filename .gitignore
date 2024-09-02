@@ -7,11 +7,9 @@ __pycache__/
 *.log
 # Distribution / packaging
 .Python
-build/
 package/*.tar
 package/*.tar.gz
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -52,7 +50,6 @@ resources/*.json
 *.csv
 *.img
 .aux_wheels
-*.whl
 
 *.orig
 
