@@ -1,6 +1,6 @@
 import io
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open('requirements.txt') as f:
     requirements = f.readlines()
@@ -18,7 +18,7 @@ setup(
     author='Luxonis',
     author_email='support@luxonis.com',
     license='MIT',
-    packages=['depthai_sdk', 'depthai_sdk_console_scripts'],
+    packages=find_packages(where='src'),
     package_dir={'': 'src'},  # https://stackoverflow.com/a/67238346/5494277
     install_requires=install_requires,
     include_package_data=True,
